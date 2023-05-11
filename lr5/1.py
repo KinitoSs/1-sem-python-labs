@@ -10,7 +10,7 @@
 #   /( _ )\
 #    ^^ ^^
 
-amount = int(input('n = '))
+amount = int(input("n = "))
 p = "   _~_    "
 e = "  (o o)   "
 n = " /  V  \\  "

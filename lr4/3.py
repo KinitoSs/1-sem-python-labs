@@ -9,16 +9,16 @@
 import random
 
 
-lst = [random.randint(-10, 20) for i in range(10)] 
+lst = [random.randint(-10, 20) for i in range(10)]
 
-print('Исходный список:', lst)
+print("Исходный список:", lst)
 
-print('Есть ли в списке -1?')
+print("Есть ли в списке -1?")
 if -1 in lst:
     print("YES")
 else:
     print("NO")
-    
+
 max_num = max(lst)
 print("Максимальный элемент:", max_num)
 

@@ -6,13 +6,15 @@
 # IP-адреса, выведите YES, иначе выведите NO.
 # Указание: решите задачу, используя списки.
 
-ip_address = input().split('.')
-if len(ip_address) != 4: # проверяем, что IP-адрес состоит из 4 чисел
-    print('NO')
+ip_address = input().split(".")
+if len(ip_address) != 4:  # проверяем, что IP-адрес состоит из 4 чисел
+    print("NO")
 else:
     for num in ip_address:
-        if not num.isdigit() or int(num) < 0 or int(num) > 255: # проверяем, что каждое число в диапазоне от 0 до 255
-            print('NO')
+        if (
+            not num.isdigit() or int(num) < 0 or int(num) > 255
+        ):  # проверяем, что каждое число в диапазоне от 0 до 255
+            print("NO")
             break
     else:
-        print('YES')
+        print("YES")

@@ -9,11 +9,12 @@ lst_a = []
 for i in range(n):
     num = int(input("Введите число: "))
     lst_a.append(num)
-print('а)', lst_a)
+print("а)", lst_a)
 
 lst_b = [1] * n
-print('б)', lst_b)
+print("б)", lst_b)
 
 import random
+
 lst_c = [random.randint(-10, 20) for i in range(n)]
-print('в)', lst_c)
+print("в)", lst_c)

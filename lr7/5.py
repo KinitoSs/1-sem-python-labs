@@ -11,4 +11,4 @@ for i in range(n):
 # считываем месяц, для которого нужно вывести имена именинников
 search_month = input()
 # выводим имена именинников, родившихся в заданном месяце
-print(' '.join(birthdays.get(search_month, [])))
+print(" ".join(birthdays.get(search_month, [])))

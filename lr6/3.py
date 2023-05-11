@@ -6,7 +6,7 @@ def fibonachi(n):
     elif n == 2:
         return [0, 1]
     else:
-        fib_sequence = fibonachi(n-1)
+        fib_sequence = fibonachi(n - 1)
         fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
         return fib_sequence
 

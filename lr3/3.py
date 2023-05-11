@@ -14,5 +14,5 @@ while sum_of_squares <= n:
 
 sum_of_squares -= i**2
 
-print("Сумма квадратов чисел от 1 до", m, "равна", sum(i**2 for i in range(1, m+1)))
-print("Сумма квадратов чисел от 1 до", i-1, "равна", sum_of_squares)
+print("Сумма квадратов чисел от 1 до", m, "равна", sum(i**2 for i in range(1, m + 1)))
+print("Сумма квадратов чисел от 1 до", i - 1, "равна", sum_of_squares)

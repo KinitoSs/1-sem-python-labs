@@ -1,4 +1,4 @@
-with open('lr6/text.txt', 'r', encoding='utf-8') as file:
+with open("lr6/text.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 for line in lines:

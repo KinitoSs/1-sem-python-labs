@@ -2,11 +2,11 @@ players = []
 
 for i in range(5):
     input_str = input()
-    
+
     name, height_str = input_str.split()
-    
+
     height = int(height_str)
-    
+
     player_tuple = (height, name)
     players.append(player_tuple)
 
